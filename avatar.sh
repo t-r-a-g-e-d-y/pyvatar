@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-version=$(python3 --version | awk '{print $2}' | sed 's/\.//g')
+version=$(python3 --version | awk '{ gsub(/\./, "", $2) ; print $2 }')
 
 if [ -z "$version" ] || [ "$version" -lt 360 ]; then
     echo "Requires Python 3.6 or newer"
