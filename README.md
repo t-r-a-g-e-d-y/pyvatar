@@ -2,7 +2,7 @@
 ## pyvatar
 A collection of scripts to generate Github-like avatars.
 
-#### ![pyvatar.py](./avatar.py)
+#### ![pyvatar.py](./pyvatar.py)
 A more full featured script to generate avatars as png files.
 
 ```
