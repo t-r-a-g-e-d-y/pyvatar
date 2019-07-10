@@ -1,3 +1,4 @@
+![pyvatar.py example](https://i.imgur.com/ZSnNEQS.png)![pyvatar.py example](https://i.imgur.com/2Wm4uv7.png)![pyvatar.py example](https://i.imgur.com/U21GbcM.png)![pyvatar.py example](https://i.imgur.com/2Wm4uv7.png)![pyvatar.py example](https://i.imgur.com/ZSnNEQS.png)
 ## pyvatar
 A collection of scripts to generate Github-like avatars.
 
@@ -36,6 +37,8 @@ d='\x1b[0m\n'
 e=d.join(['{d}{a}{b}{c}{b}{a}{d}'.format(a=b(),b=b(),c=b(),d=a[1]) for _ in range(5)])
 print(c,e,c,sep=d,end=d)
 ```
+
+![avatar.py example](https://i.imgur.com/arymOrR.png)
 
 #### ansimg.py
 Redirect the output of `avatar.py` to a file and use `ansimg.py` to create a png file out of it.
