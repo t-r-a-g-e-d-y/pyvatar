@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random as r
 a=[f'\x1b[48;5;{r.randint(0,255)}m  ','\x1b[48;5;254m  ']
 b=lambda:r.choice(a)
