@@ -8,6 +8,7 @@ Requires Python >=3.6
 
 ```
 git clone https://github.com/t-r-a-g-e-d-y/pyvatar.git
+cd pyvatar
 pip3 install -r requirements.txt
 ```
 
@@ -64,7 +65,7 @@ print(c,e,c,sep=d,end=d)
 Redirect the output of `avatar.py` to a file and use `ansimg.py` to create a png file out of it.
 
 ```sh
-./avatar.py | ansimg.py output
+./avatar.py | ./ansimg.py output
 ```
 
 ```sh
