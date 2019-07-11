@@ -1,9 +1,9 @@
 ![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/stobY0n.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)
 
-## pyvatar
+# pyvatar
 A collection of scripts to generate Github-like avatars.
 
-### Installation
+## Installation
 Requires Python >=3.6
 
 ```
@@ -12,7 +12,7 @@ cd pyvatar
 pip3 install -r requirements.txt
 ```
 
-#### ![pyvatar.py](./pyvatar.py)
+### ![pyvatar.py](./pyvatar.py)
 A more full featured script to generate avatars as png files.
 
 ```
@@ -42,13 +42,13 @@ Examples:
 ```
 ![pyvatar.py example](https://i.imgur.com/mHNZBy3.png)
 
-#### ![avatar.sh](./avatar.sh)
+### ![avatar.sh](./avatar.sh)
 A bash script for creating ansi avatars with `avatar.py` and converting them to images with `ansimg.py`
 Generates and prints an avatar to stdout before saving it as output.png.  Run with the `-i` flag to preview avatars before saving.
 
 ![avatar.sh example](https://i.imgur.com/IRXeRAS.png)
 
-#### ![avatar.py](./avatar.py)
+### ![avatar.py](./avatar.py)
 Create avatars using ansi color codes and print to the terminal.  A little golf attempt that spawned this project.
 
 ```python
@@ -63,7 +63,7 @@ print(c,e,c,sep=d,end=d)
 
 ![avatar.py example](https://i.imgur.com/arymOrR.png)
 
-#### ![ansimg.py](./ansimg.py)
+### ![ansimg.py](./ansimg.py)
 Redirect the output of `avatar.py` to a file and use `ansimg.py` to create a png file out of it.
 
 ```sh
