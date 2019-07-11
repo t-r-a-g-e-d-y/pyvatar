@@ -46,6 +46,8 @@ Examples:
 A bash script for creating ansi avatars with `avatar.py` and converting them to images with `ansimg.py`
 Generates and prints an avatar to stdout before saving it as output.png.  Run with the `-i` flag to preview avatars before saving.
 
+![avatar.sh example](https://i.imgur.com/IRXeRAS.png)
+
 #### ![avatar.py](./avatar.py)
 Create avatars using ansi color codes and print to the terminal.  A little golf attempt that spawned this project.
 
