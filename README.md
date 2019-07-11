@@ -1,6 +1,15 @@
-![pyvatar.py example](https://i.imgur.com/ZSnNEQS.png)![pyvatar.py example](https://i.imgur.com/2Wm4uv7.png)![pyvatar.py example](https://i.imgur.com/U21GbcM.png)![pyvatar.py example](https://i.imgur.com/2Wm4uv7.png)![pyvatar.py example](https://i.imgur.com/ZSnNEQS.png)
+![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/stobY0n.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)
+
 ## pyvatar
 A collection of scripts to generate Github-like avatars.
+
+### Installation
+Requires Python >=3.6
+
+```
+git clone https://github.com/t-r-a-g-e-d-y/pyvatar.git
+pip3 install -r requirements.txt
+```
 
 #### ![pyvatar.py](./pyvatar.py)
 A more full featured script to generate avatars as png files.
@@ -20,6 +29,17 @@ optional arguments:
   -p n        Padding (Default: 1)
   -b n        Block size (Default: 48)
 ```
+
+Examples:
+```
+./pyvatar.py -r 5 -c 5 -b 12 output
+```
+![pyvatar.py example](https://i.imgur.com/YNANeSV.png)
+
+```
+./pyvatar.py -r 7 -c 7 -p 2 -b 12 output
+```
+![pyvatar.py example](https://i.imgur.com/mHNZBy3.png)
 
 #### ![avatar.sh](./avatar.sh)
 A bash script for creating ansi avatars with `avatar.py` and converting them to images with `ansimg.py`
@@ -44,8 +64,12 @@ print(c,e,c,sep=d,end=d)
 Redirect the output of `avatar.py` to a file and use `ansimg.py` to create a png file out of it.
 
 ```sh
-python3 avatar.py > avatar.txt
-python3 ansimg.py avatar.txt output
+./avatar.py | ansimg.py output
+```
+
+```sh
+./avatar.py > avatar.txt
+./ansimg.py avatar.txt output
 ```
 
 ```
