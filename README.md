@@ -1,7 +1,7 @@
 ![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/stobY0n.png)![pyvatar.py example](https://i.imgur.com/Ls3tJVs.png)![pyvatar.py example](https://i.imgur.com/Rd3kbYC.png)
 
 # pyvatar
-A collection of scripts to generate Github-like avatars.
+Because everything written in Python has to have py in the name.  A collection of scripts to generate Github-like avatars.
 
 ## Installation
 Requires Python >=3.6
